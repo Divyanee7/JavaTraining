@@ -8,9 +8,10 @@ import java.util.stream.Stream;
 public class StreamOperation {
     public static void main(String[] args) {
 
-        //to conver array into fixed size list and also it's used to perform the list-based operation.
-        List<Integer> numbers= Arrays.asList(1,2,3,4,5,6,7,8,9,10);
 
+        List<Integer> numbers= Arrays.asList(1,2,3,4,5,6,7,8,9,10);
+        List<String> str=Arrays.asList("Divyanee","Vaishnavi","AShish");
+//        str.stream().filter();
         //to create numbers as a stream
         Stream<Integer> numberStream=numbers.stream();
         //filter() method used to keep only the elements that match a certain condition.
